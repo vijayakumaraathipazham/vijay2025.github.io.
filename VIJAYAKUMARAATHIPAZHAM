@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijayakumar Aathipazham - Electro-Mechanical Engineer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; }
+        
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h2 { 
+            color: #2c3e50;
+            border-bottom: 2px solid #e74c3c;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+        }
+        
+        .experience-item, .education-item {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border-left: 3px solid #e74c3c;
+        }
+        
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        
+        .skill-category {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        
+        .achievements { 
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        
+        .achievement-card {
+            background: #ecf0f1;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        
+        .contact-bar {
+            background: #34495e;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        a { color: #e74c3c; text-decoration: none; }
+        
+        @media (max-width: 768px) {
+            .section { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>VIJAYAKUMAR AATHIPAZHAM</h1>
+        <p>Electro-Mechanical Systems Engineer</p>
+        <div class="contact-bar">
+            📧 vijayakumaraathipazham@gmail.com | 📍 Chennai | 📱 +91 9597514847<br>
+            <a href="https://www.linkedin.com/in/vijayakumar-aathipazham-7475b171" target="_blank">LinkedIn Profile</a>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2>Professional Summary</h2>
+        <p>9+ years experience in designing, developing, and testing electro-mechanical systems for Automotive, Oil & Gas, and Refractories industries. Proven expertise in quality management, project execution, and cross-functional team leadership.</p>
+    </section>
+
+    <section class="section">
+        <h2>Key Expertise</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>AutoCAD & SolidWorks 3D</li>
+                    <li>PLC Programming</li>
+                    <li>MCC & PLC Panel Design</li>
+                    <li>SAP QM</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Quality Management</h3>
+                <ul>
+                    <li>ISO 9001/14001/45001</li>
+                    <li>FMEA/Root Cause Analysis</li>
+                    <li>CAPA Implementation</li>
+                    <li>PPAP/APQP</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Professional Experience</h2>
+        <div class="experience-item">
+            <h3>Assistant Project Engineer (Electrical & Mechanical)</h3>
+            <p><strong>KJT, Chennai</strong> | Nov 2021 – Present</p>
+            <ul>
+                <li>Designed GA systems and MCC/PLC panels</li>
+                <li>Improved project execution efficiency by 15% through cross-team coordination</li>
+                <li>Managed installation of 20+ industrial systems</li>
+            </ul>
+        </div>
+        <!-- Add other experiences following same pattern -->
+    </section>
+
+    <section class="section">
+        <h2>Achievements</h2>
+        <div class="achievements">
+            <div class="achievement-card">
+                <h3>🏆 Quality Rising Star Award 2021</h3>
+                <p>Achieved 100% quality compliance for consecutive 6 months</p>
+            </div>
+            <div class="achievement-card">
+                <h3>⭐ Best Employee 2022</h3>
+                <p>Recognized for exceptional project leadership at KJT</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>B.E Mechanical Engineering (75.1%)</h3>
+            <p>Kings Engineering College | 2011-2015</p>
+        </div>
+    </section>
+</body>
+</html>
